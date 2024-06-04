@@ -1,0 +1,25 @@
+{
+    "name": "nxz/booknetic-telegram-bot",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nxz\\BookneticTelegramBot\\": "src/",
+            "App\\" : "src/app/"
+        },
+        "files": [
+            "src/app/Helpers/GeneralHelper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "feridnesibzade",
+            "email": "ferid1.nesibzade@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ferid/router": "dev-main",
+        "longman/telegram-bot": "^0.83.0@dev",
+        "monolog/monolog": "^3.0@dev"
+    }
+}
