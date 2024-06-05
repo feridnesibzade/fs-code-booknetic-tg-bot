@@ -7,7 +7,8 @@
             "App\\" : "src/app/"
         },
         "files": [
-            "src/app/Helpers/GeneralHelper.php"
+            "src/app/Helpers/GeneralHelper.php",
+            "src/app/Helpers/SystemHelper.php"
         ]
     },
     "authors": [
@@ -19,7 +20,6 @@
     "minimum-stability": "dev",
     "require": {
         "ferid/router": "dev-main",
-        "longman/telegram-bot": "^0.83.0@dev",
-        "monolog/monolog": "^3.0@dev"
+        "longman/telegram-bot": "^0.83.0@dev"
     }
 }

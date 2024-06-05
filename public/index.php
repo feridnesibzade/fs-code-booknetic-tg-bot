@@ -1,6 +1,14 @@
 <?php
 
-require '../vendor/autoload.php';
+error_reporting(E_ALL);
 
-require '../src/router/index.php';
-require '../src/router/Api.php';
+require __DIR__.'/../vendor/autoload.php';
+
+set_error_handler("errorHandler");
+
+set_exception_handler("exceptionHandler");
+
+register_shutdown_function("shutdownHandler");
+
+require __DIR__.'/../src/router/index.php';
+require __DIR__.'/../src/router/Api.php';
