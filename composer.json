@@ -20,6 +20,7 @@
     "minimum-stability": "dev",
     "require": {
         "ferid/router": "dev-main",
-        "longman/telegram-bot": "^0.83.0@dev"
+        "longman/telegram-bot": "^0.83.0@dev",
+        "paquettg/php-html-parser": "^3.1"
     }
 }

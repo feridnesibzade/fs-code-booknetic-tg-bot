@@ -9,12 +9,14 @@ class TelegramBotService
 
     public $postData = [];
 
+    public $requestData;
+
     public function __construct(){
-        $requestData = json_decode(file_get_contents('php://input'));
-        $this->postData['chat_id'] = $requestData->message->chat->id ?? 857847737;
+        $this->requestData = json_decode(file_get_contents('php://input'));
+        $this->postData['chat_id'] = $this->requestData->message->chat->id ?? 857847737;
         
-        if (isset($requestData->callback_query)) {
-            $this->postData['callback_query'] = $requestData->callback_query;
+        if (isset($this->requestData->callback_query)) {
+            $this->postData['callback_query'] = $this->requestData->callback_query;
         }
     }
 
