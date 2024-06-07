@@ -1,0 +1,2 @@
+Yükləmək üçün ``git clone ``
+
