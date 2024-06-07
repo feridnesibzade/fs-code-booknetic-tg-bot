@@ -17,6 +17,7 @@ class TelegramBotService
         
         if (isset($this->requestData->callback_query)) {
             $this->postData['callback_query'] = $this->requestData->callback_query;
+            $this->postData['chat_id'] = $this->requestData->callback_query->message->chat->id;
         }
     }
 
@@ -28,6 +29,12 @@ class TelegramBotService
     public function setButtons($buttons){
         $this->postData['reply_markup'] = json_encode([
             'inline_keyboard' => $buttons
+        ]);
+    }
+
+    public function forceReply(){
+        $this->postData['reply_markup'] = json_encode([
+            'force_reply' => true
         ]);
     }
 

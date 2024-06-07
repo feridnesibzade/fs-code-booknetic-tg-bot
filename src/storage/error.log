@@ -1,42 +1,66 @@
-[ ERROR ] : (8192) Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\vendor\paquettg\php-html-parser\src\PHPHtmlParser\Dom\Node\Collection.php:133
-[ ERROR ] : (8192) Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\vendor\paquettg\php-html-parser\src\PHPHtmlParser\Dom\Node\Collection.php:133
-[ ERROR ] : (8192) Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\vendor\paquettg\php-html-parser\src\PHPHtmlParser\Dom\Node\Collection.php:133
-[ ERROR ] : (2) gzdecode(): data error - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:110
-[ ERROR ] : (2) gzdecode(): data error - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:110
-[ ERROR ] : (2) Array to string conversion - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Services\BookneticService.php:226
-[ ERROR ] : (8192) Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\vendor\paquettg\php-html-parser\src\PHPHtmlParser\Dom\Node\Collection.php:133
-[ ERROR ] : (2) Array to string conversion - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Services\BookneticService.php:226
-[ ERROR ] : (8192) Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\vendor\paquettg\php-html-parser\src\PHPHtmlParser\Dom\Node\Collection.php:133
-[ ERROR ] : (2) Undefined array key "callback_query" - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:78
-[ ERROR ] : (2) Attempt to read property "data" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:78
-[ ERROR ] : (8192) explode(): Passing null to parameter #2 ($string) of type string is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:78
-[ ERROR ] : (2) Undefined array key 1 - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:78
-[ ERROR ] : (2) Undefined array key "callback_query" - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:78
-[ ERROR ] : (2) Attempt to read property "data" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:78
-[ ERROR ] : (8192) explode(): Passing null to parameter #2 ($string) of type string is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:78
-[ ERROR ] : (2) Undefined array key 1 - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:78
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:35
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:35
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:35
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:35
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:36
-[ EXCEPTION ] : syntax error, unexpected token "->" - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:35
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:37
-[ EXCEPTION ] : date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:37
-[ EXCEPTION ] : Too few arguments to function dump(), 0 passed in E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php on line 33 and at least 1 expected - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Helpers\GeneralHelper.php:5
-[ ERROR ] : (2) Undefined array key "callback_query" - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:92
-[ ERROR ] : (2) Attempt to read property "data" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:92
-[ ERROR ] : (8192) explode(): Passing null to parameter #2 ($string) of type string is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:92
-[ ERROR ] : (2) Undefined array key 1 - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:92
+[ ERROR ] : (2) Attempt to read property "message" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:32
+[ ERROR ] : (2) Attempt to read property "text" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:32
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:15
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:20
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:16
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:21
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:16
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:21
+[ ERROR ] : (8192) Creation of dynamic property App\Controllers\MainController::$BookneticService is deprecated - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:16
+[ EXCEPTION ] : Call to a member function getDate() on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:21
+[ EXCEPTION ] : Invalid numeric literal - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:22
+[ EXCEPTION ] : Invalid numeric literal - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:22
+[ ERROR ] : (2) Attempt to read property "message" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:32
+[ ERROR ] : (2) Attempt to read property "text" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:32
+[ EXCEPTION ] : Failed to parse time string (0) at position 0 (0): Unexpected character - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Helpers\GeneralHelper.php:60
+[ EXCEPTION ] : Failed to parse time string (0) at position 0 (0): Unexpected character - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Helpers\GeneralHelper.php:60
+[ EXCEPTION ] : Cannot use object of type stdClass as array - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Helpers\GeneralHelper.php:63
+[ EXCEPTION ] : Cannot use object of type stdClass as array - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Helpers\GeneralHelper.php:65
+[ EXCEPTION ] : Cannot use object of type stdClass as array - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Helpers\GeneralHelper.php:65
+[ ERROR ] : (2) Attempt to read property "message" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:32
+[ ERROR ] : (2) Attempt to read property "text" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:32
+[ ERROR ] : (2) Attempt to read property "message" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:34
+[ ERROR ] : (2) Attempt to read property "text" on null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\TelegramBotController.php:34
+[ EXCEPTION ] : Too few arguments to function App\Controllers\MainController::App\Controllers\{closure}(), 1 passed and exactly 2 expected - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:23
+[ EXCEPTION ] : Too few arguments to function App\Controllers\MainController::App\Controllers\{closure}(), 1 passed and exactly 2 expected - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:23
+[ EXCEPTION ] : Too few arguments to function App\Controllers\MainController::App\Controllers\{closure}(), 1 passed and exactly 2 expected - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:23
+[ EXCEPTION ] : Too few arguments to function App\Controllers\MainController::App\Controllers\{closure}(), 1 passed and exactly 2 expected - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:23
+[ ERROR ] : (2) Trying to access array offset on value of type int - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:24
+[ ERROR ] : (2) Trying to access array offset on value of type int - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:24
+[ ERROR ] : (2) Trying to access array offset on value of type int - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:24
+[ ERROR ] : (2) Trying to access array offset on value of type int - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:24
+[ ERROR ] : (2) Trying to access array offset on value of type int - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:24
+[ ERROR ] : (2) Trying to access array offset on value of type int - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:24
+[ EXCEPTION ] : Too few arguments to function App\Controllers\MainController::App\Controllers\{closure}(), 1 passed and exactly 2 expected - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:23
+[ ERROR ] : (2) Undefined variable $data - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:64
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Trying to access array offset on value of type null - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65
+[ ERROR ] : (2) Undefined array key 0 - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:66
+[ ERROR ] : (2) Undefined array key 0 - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:66
+[ ERROR ] : (2) Undefined array key 1 - E:\web_dev\OpenServer\domains\test.loc\Booknetic-telegram-bot\src\app\Controllers\MainController.php:65

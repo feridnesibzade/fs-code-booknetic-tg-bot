@@ -76,12 +76,13 @@ class BookneticService
                 'price' => trim($price)
             ];
         }
-        dump($this->postData);
+
         return $ss;
     }
 
-    public function getDate($serviceId, $year=2024, $month=null)
+    public function getDate($serviceId, $month=null)
     {
+        $year = date('Y');
         $month = $month ?? date('m'); 
 
         $boundary = '---------------------------18834218767000265463402635281';
@@ -195,6 +196,49 @@ class BookneticService
 
     }
 
+    public function confirm($data){
+        $time = explode('-',$data['step2']['time']);
+        $this->postData = [
+            'payment_method' => 'local',
+            'deposit_full_amount' => '0',
+            'client_time_zone' => '-',
+            'google_recaptcha_token' => 'undefined',
+            'google_recaptcha_action' => 'booknetic_booking_panel_1',
+            'step' => 'confirm',
+            'cart' => '[
+                {"location":-1,
+                    "staff":-1,
+                    "service_category":"",
+                    "service":'.$data['step1']['service'].',
+                    "service_extras":[],
+                    "date":"'.date('Y').'-'.$data['step2']['month'].'-'.$data['step2']['day'].'",
+                    "time":"'.$time[0].'",
+                    "brought_people_count":0,
+                    "recurring_start_date":"'.$time[0].'",
+                    "recurring_end_date":"'.$time[1].'",
+                    "recurring_times":"{}",
+                    "appointments":"[]",
+                    "customer_data":
+                        {
+                            "first_name":"'.$data['step3']['name'].'",
+                            "last_name":"'.$data['step3']['surname'].'",
+                            "email":"'.$data['step3']['email'].'",
+                            "phone":"'.$data['step3']['phone'].'"
+                        },
+                        "custom_fields":{}
+                    }
+                ]',
+            'current' => '0',
+            'query_params' => '{}',
+            'coupon' => '',
+            'giftcard' => '',
+            'action' => 'bkntc_confirm',
+            'tenant_id' => '3'
+        ];
+
+        return $this->request();
+    }
+
 
 
     public function request()
@@ -222,8 +266,8 @@ class BookneticService
         // ]);
 
 
-        // curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($this->postData));
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $this->postData);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($this->postData));
+        // curl_setopt($ch, CURLOPT_POSTFIELDS, $this->postData);
 
         $response = curl_exec($ch);
 
