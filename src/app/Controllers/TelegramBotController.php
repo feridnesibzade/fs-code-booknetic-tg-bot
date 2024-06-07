@@ -279,7 +279,7 @@ class TelegramBotController
             $this->botService->sendMessage('Məlumatlar silindi. Yenidən yaradın.');
             $this->step1();
         }else{
-            $this->botService->sendMessage('Rezerviniz təstiqləndi. Kodunuzu: '.$response->customer_id);
+            $this->botService->sendMessage('Rezerviniz təstiqləndi. Kodunuzu: '.$response->id);
             $this->removeAllData();
             $this->botService->sendMessage('/start əmrini isitfadə edərək yeni rezerv yarada bilərsən.');
         }
