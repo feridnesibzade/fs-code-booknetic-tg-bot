@@ -55,14 +55,10 @@ class BookneticService
 
         $dom = new Dom;
         $dom->loadStr($response);
-        // $categories = $dom->find('.booknetic_service_category');
         $services = $dom->find('.booknetic_service_card');
-        // $catArr = [];
+        
         $ss = [];
 
-        // foreach ($categories as $category) {
-        //     $catArr[] = $category->text . "\n";
-        // }
 
         foreach ($services as $service) {
             $title = $service->find('.booknetic_service_title_span')->text;
@@ -87,7 +83,6 @@ class BookneticService
 
         $boundary = '---------------------------18834218767000265463402635281';
 
-        // Prepare the form data
         $data = [
             "--$boundary",
             'Content-Disposition: form-data; name="payment_method"',
@@ -152,13 +147,10 @@ class BookneticService
             "--$boundary--",
         ];
 
-        // Convert the array to a string
         $post_fields = implode("\r\n", $data);
 
-        // Initialize cURL
         $ch = curl_init();
 
-        // Set cURL options
         curl_setopt($ch, CURLOPT_URL, "https://sandbox.booknetic.com/sandboxes/sandbox-saas-6f49ae724d32a0cf3823/wp-admin/admin-ajax.php");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -180,18 +172,14 @@ class BookneticService
 
         curl_setopt($ch, CURLOPT_POSTFIELDS, $post_fields);
 
-        // Execute cURL request
         $response = curl_exec($ch);
 
-        // Check for errors
         if (curl_errno($ch)) {
             echo 'Error:' . curl_error($ch);
         } else {
-            // Print the response
             return json_decode($response);
         }
 
-        // Close cURL session
         curl_close($ch);
 
     }
@@ -248,22 +236,7 @@ class BookneticService
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, true);
 
-        // curl_setopt($ch, CURLOPT_HTTPHEADER, [
-        //     "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
-        //     "Accept: */*",
-        //     "Accept-Language: en-US,en;q=0.5",
-        //     "Accept-Encoding: gzip, deflate, br, zstd",
-        //     "X-Requested-With: XMLHttpRequest",
-        //     "Content-Type: multipart/form-data;",
-        //     "Origin: https://sandbox.booknetic.com",
-        //     "Alt-Used: sandbox.booknetic.com",
-        //     "Connection: keep-alive",
-        //     "Referer: https://sandbox.booknetic.com/sandboxes/sandbox-saas-6f49ae724d32a0cf3823/tutor2",
-        //     "Sec-Fetch-Dest: empty",
-        //     "Sec-Fetch-Mode: cors",
-        //     "Sec-Fetch-Site: same-origin",
-        //     "TE: trailers"
-        // ]);
+        
 
 
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($this->postData));
