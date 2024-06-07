@@ -240,9 +240,9 @@ class TelegramBotController
         $fullName = $data['step3']['name'] . ', ' . $data['step3']['surname'];
 
         foreach ($this->bookneticService->getServices() as $service) {
-            if ($service['id'] == 12) { // Change the ID as needed
+            if ($service['id'] == $data['step1']['service']) {
                 $filteredService = $service;
-                break; // Exit the loop once the desired element is found
+                break;
             }
         }
        
@@ -275,10 +275,22 @@ class TelegramBotController
         $value = explode('.', $callbackData)[1];
         if($value == 'edit'){
             $this->botService->sendMessage('Düzəliş');
+            $this->removeAllData();
+            $this->botService->sendMessage('Məlumatlar silindi. Yenidən yaradın.');
+            $this->step1();
         }else{
             $this->botService->sendMessage('Rezerviniz təstiqləndi. Kodunuzu: '.$response->customer_id);
+            $this->removeAllData();
+            $this->botService->sendMessage('/start əmrini isitfadə edərək yeni rezerv yarada bilərsən.');
         }
 
+    }
+
+    public function removeAllData(){
+        $this->userModel->updateAndGet([
+            'id' => $this->user['id'],
+            'data' => ''
+        ]);
     }
 
 
